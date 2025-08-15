@@ -1,0 +1,15 @@
+version control system
+keyboard shortcuts
+
+
+classifications
+1. how they are run
+    compiler
+    interpreter
+
+2. how they model
+    oop - object oriented programming
+    functional programming
+
+= is assignment
+== comparison
