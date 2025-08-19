@@ -16,14 +16,17 @@ operation = input(f"what mathematical operation do yo you want to perform? (addi
 # subtraction = num1 - num2
 # multiplication = num1 * num2
 
-if operation == "addition":
+if operation.lower() == "addition":
     print(f"This is the sum of the two numbers; {num1 + num2}")
-elif operation == "subtraction":
+elif operation.lower() == "subtraction":
     print(f"This is the difference of the two numbers; {num1 - num2}")
-elif operation == "multiplication":
+elif operation.lower() == "multiplication":
    print(f"This is the product of the two numbers; {num1 * num2}")
-elif operation == "division":
-  print(f"This is the quotient of the two numbers; {num1 / num2}")
+elif operation.lower() == "division":
+  if (num2 == 0):
+     print("undefined")
+  else:
+      print(f"This is the quotient of the two numbers; {num1 / num2}")
 else:
    print("Please enter one of the above mathematical operations")
 
