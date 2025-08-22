@@ -10,4 +10,4 @@ if num1 > num2:
 elif num2 > num1:
     print(f"The second number({num2}) is the greater number")
 else:
-    print("They are equal to each other")
+    print("They are equal to each other");
