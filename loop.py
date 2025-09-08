@@ -15,8 +15,9 @@ end = 36
 while(start < end):
     print(start)
     start = start + 1
-
+#the while loop takes more space than the for loop
 # for loop
+#time space complexity
 mylist = ["basketall", "football", "tennis", "golf"]
 counter = 0
 for item in mylist:
