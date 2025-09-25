@@ -6,6 +6,7 @@ def checkbalance(balance):
     print(f"Your current balance is ${balance}")
 
 def deposit(balance):
+   
     while True:
         try:
             amount = float(input("Enter amount to deposit: "))

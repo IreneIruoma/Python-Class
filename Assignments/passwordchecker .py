@@ -1,5 +1,6 @@
 """
 this is a program that checks whether a password is strong
+and ensures the user enters a strong password before exiting the loop
 """
 
 while True:

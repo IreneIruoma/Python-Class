@@ -1,22 +1,34 @@
 class User:
-    firstname = "Irene"
-    lastname = "Okorie"
-    age = 21
-    gender = "Female"
-    email = "ireneiruoma@gmail.com"
-    nationality = "Nigeria"
-    phone = "08065680885"
+    # firstname = "Irene"
+    # lastname = "Okorie"
+    # age = 21
+    # gender = "Female"
+    # email = "ireneiruoma@gmail.com"
+    # nationality = "Nigeria"
+    # phone = "08065680885"
 
     # # object of the class user
     #classes are blueprints that objects follow
     # user1 is the object of the class user
-user1 = User()
-print(user1.firstname)
-print(user1.lastname)
-print(user1.age)
-print(user1.gender)
-print(user1.email)
-print(user1.nationality)
-print(user1.phone)
+
+    def __init__(self,firstname, lastname, age, sex, nationality, email, phone):
+        self.firstname = firstname
+        self.lastname = lastname
+        self.age = age
+        self.sex = sex
+        self.nationality = nationality
+        self.email = email
+        self.phone = phone
+
+userirene = User("Irene", "Iruoma", 21, "female", "nigerian", "itrr", 000 )
+print(userirene.age)
+
+# print(user1.firstname)
+# print(user1.lastname)
+# print(user1.age)
+# print(user1.gender)
+# print(user1.email)
+# print(user1.nationality)
+# print(user1.phone)
 
 # constructor
